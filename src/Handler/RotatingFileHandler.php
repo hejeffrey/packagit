@@ -1,9 +1,7 @@
 <?php
 
-namespace Monolog\Handler;
+namespace jeffrey\Handler;
 
-use jeffrey\Handler\Logger;
-use jeffrey\Handler\StreamHandler;
 
 /**
  * Stores logs to files that are rotated every day and a limited number of files are kept.
