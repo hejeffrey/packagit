@@ -3,6 +3,8 @@
 namespace jeffrey\Handler;
 
 use jeffrey\Handler\Formatter\LineFormatter;
+use jeffrey\Logger\FormatterInterface;
+use jeffrey\Logger\HandlerInterface;
 
 /**
  * Base Handler class providing the Handler structure
