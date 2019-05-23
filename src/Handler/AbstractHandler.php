@@ -2,7 +2,7 @@
 
 namespace jeffrey\Handler;
 
-use jeffrey\Handler\Formatter\LineFormatter;
+use jeffrey\Formatter\LineFormatter;
 use jeffrey\Logger\FormatterInterface;
 use jeffrey\Logger\HandlerInterface;
 

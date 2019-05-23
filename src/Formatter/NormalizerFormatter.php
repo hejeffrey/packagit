@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace jeffrey\Handler\Formatter;
+namespace jeffrey\Formatter;
 
 use Exception;
-use jeffrey\Handler\FormatterInterface;
+use jeffrey\Logger\FormatterInterface;
 
 /**
  * Normalizes incoming records to remove objects/resources so it's easier to dump to various targets
