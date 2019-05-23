@@ -5,7 +5,7 @@ use jeffrey\Logger\LoggerInterface;
 use jeffrey\Handler\Formatter\LineFormatter;
 use jeffrey\Handler\Logger as MonologLogger;
 use jeffrey\Handler\StreamHandler;
-use Monolog\Handler\RotatingFileHandler;
+use jeffrey\Handler\RotatingFileHandler;
 
 class Writer implements LogContract, LoggerInterface
 {
