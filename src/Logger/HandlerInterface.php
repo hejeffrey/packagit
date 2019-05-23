@@ -1,6 +1,6 @@
 <?php
 
-namespace jeffrey\Logger;
+namespace hejeffrey\Logger;
 
 /**
  * Interface that all Monolog Handlers must implement

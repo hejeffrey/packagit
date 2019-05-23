@@ -1,7 +1,7 @@
 <?php
 
 
-namespace jeffrey\Logger;
+namespace hejeffrey\Logger;
 
 /**
  * Interface for formatters

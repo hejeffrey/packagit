@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace jeffrey\Formatter;
+namespace hejeffrey\Formatter;
 
 use Exception;
-use jeffrey\Logger\FormatterInterface;
+use hejeffrey\Logger\FormatterInterface;
 
 /**
  * Normalizes incoming records to remove objects/resources so it's easier to dump to various targets

@@ -1,6 +1,6 @@
 <?php
 
-namespace jeffrey\Formatter;
+namespace hejeffrey\Formatter;
 
 /**
  * Formats incoming records into a one-line string

@@ -1,5 +1,5 @@
 <?php
-namespace jeffrey\Logger;
+namespace hejeffrey\Logger;
 
 interface LoggerInterface
 {

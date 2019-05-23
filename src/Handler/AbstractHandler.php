@@ -1,10 +1,10 @@
 <?php
 
-namespace jeffrey\Handler;
+namespace hejeffrey\Handler;
 
-use jeffrey\Formatter\LineFormatter;
-use jeffrey\Logger\FormatterInterface;
-use jeffrey\Logger\HandlerInterface;
+use hejeffrey\Formatter\LineFormatter;
+use hejeffrey\Logger\FormatterInterface;
+use hejeffrey\Logger\HandlerInterface;
 
 /**
  * Base Handler class providing the Handler structure

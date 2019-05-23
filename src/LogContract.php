@@ -1,5 +1,5 @@
 <?php
-namespace jeffrey;
+namespace hejeffrey;
 
 interface LogContract
 {

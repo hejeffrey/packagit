@@ -1,6 +1,6 @@
 <?php
 
-namespace jeffrey\Handler;
+namespace hejeffrey\Handler;
 
 /**
  * Stores to any stream resource

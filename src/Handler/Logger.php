@@ -1,9 +1,9 @@
 <?php
 
-namespace jeffrey\Handler;
+namespace hejeffrey\Handler;
 
-use jeffrey\Logger\HandlerInterface;
-use jeffrey\Logger\LoggerInterface;
+use hejeffrey\Logger\HandlerInterface;
+use hejeffrey\Logger\LoggerInterface;
 
 /**
  * Monolog log channel

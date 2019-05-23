@@ -1,11 +1,11 @@
 <?php
-namespace jeffrey;
+namespace hejeffrey;
 
-use jeffrey\Logger\LoggerInterface;
-use jeffrey\Handler\Formatter\LineFormatter;
-use jeffrey\Handler\Logger as MonologLogger;
-use jeffrey\Handler\StreamHandler;
-use jeffrey\Handler\RotatingFileHandler;
+use hejeffrey\Logger\LoggerInterface;
+use hejeffrey\Formatter\LineFormatter;
+use hejeffrey\Handler\Logger as MonologLogger;
+use hejeffrey\Handler\StreamHandler;
+use hejeffrey\Handler\RotatingFileHandler;
 
 class Writer implements LogContract, LoggerInterface
 {
@@ -35,7 +35,7 @@ class Writer implements LogContract, LoggerInterface
     /**
      * Create a new log writer instance.
      *
-     * @param  \jeffrey\Handler\Logger  $monolog
+     * @param  \hejeffrey\Handler\Logger  $monolog
      * @return void
      */
     public function __construct(MonologLogger $monolog)

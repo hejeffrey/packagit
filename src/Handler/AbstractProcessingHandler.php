@@ -1,6 +1,6 @@
 <?php
 
-namespace jeffrey\Handler;
+namespace hejeffrey\Handler;
 
 /**
  * Base Handler class providing the Handler structure
