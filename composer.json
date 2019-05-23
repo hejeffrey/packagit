@@ -1,5 +1,5 @@
 {
-  "name": "jeffrey/logger",
+  "name": "hejeffrey/logger",
   "description": "custom logging!",
   "type": "library",
   "keywords": ["logger"],
@@ -10,7 +10,7 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "jeffrey",
+      "name": "hejeffrey",
       "email": "hejeffrey@gmail.com"
     }
   ],
