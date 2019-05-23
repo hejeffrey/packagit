@@ -1,11 +1,9 @@
 <?php
 
-namespace jeffrey\Monolog;
+namespace jeffrey\Handler;
 
 /**
  * Interface that all Monolog Handlers must implement
- *
- * @author Jordi Boggiano <j.boggiano@seld.be>
  */
 interface HandlerInterface
 {

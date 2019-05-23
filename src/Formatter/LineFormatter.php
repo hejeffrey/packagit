@@ -1,14 +1,11 @@
 <?php
 
-namespace jeffrey\Monolog\Formatter;
+namespace jeffrey\Handler\Formatter;
 
 /**
  * Formats incoming records into a one-line string
  *
  * This is especially useful for logging to files
- *
- * @author Jordi Boggiano <j.boggiano@seld.be>
- * @author Christophe Coevoet <stof@notk.org>
  */
 class LineFormatter extends NormalizerFormatter
 {

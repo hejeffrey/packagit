@@ -1,6 +1,6 @@
 <?php
 
-namespace jeffrey\Monolog;
+namespace jeffrey\Handler;
 
 use jeffrey\Logger\LoggerInterface;
 
@@ -9,8 +9,6 @@ use jeffrey\Logger\LoggerInterface;
  *
  * It contains a stack of Handlers and a stack of Processors,
  * and uses them to store records that are added to it.
- *
- * @author Jordi Boggiano <j.boggiano@seld.be>
  */
 class Logger implements LoggerInterface
 {

@@ -1,13 +1,11 @@
 <?php
 
-namespace jeffrey\Monolog;
+namespace jeffrey\Handler;
 
-use jeffrey\Monolog\Formatter\LineFormatter;
+use jeffrey\Handler\Formatter\LineFormatter;
 
 /**
  * Base Handler class providing the Handler structure
- *
- * @author Jordi Boggiano <j.boggiano@seld.be>
  */
 abstract class AbstractHandler implements HandlerInterface
 {

@@ -2,9 +2,9 @@
 namespace jeffrey;
 
 use jeffrey\Logger\LoggerInterface;
-use jeffrey\Monolog\Formatter\LineFormatter;
-use jeffrey\Monolog\Logger as MonologLogger;
-use jeffrey\Monolog\StreamHandler;
+use jeffrey\Handler\Formatter\LineFormatter;
+use jeffrey\Handler\Logger as MonologLogger;
+use jeffrey\Handler\StreamHandler;
 use Monolog\Handler\RotatingFileHandler;
 
 class Writer implements LogContract, LoggerInterface
@@ -35,7 +35,7 @@ class Writer implements LogContract, LoggerInterface
     /**
      * Create a new log writer instance.
      *
-     * @param  \jeffrey\Monolog\Logger  $monolog
+     * @param  \jeffrey\Handler\Logger  $monolog
      * @return void
      */
     public function __construct(MonologLogger $monolog)

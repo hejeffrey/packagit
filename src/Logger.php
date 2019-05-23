@@ -1,7 +1,7 @@
 <?php
 namespace jeffrey;
 
-use jeffrey\Monolog\Logger as Monolog;
+use jeffrey\Handler\Logger as Monolog;
 class Logger
 {
     use Config;

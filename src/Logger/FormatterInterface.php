@@ -1,12 +1,10 @@
 <?php
 
 
-namespace jeffrey\Monolog;
+namespace jeffrey\Handler;
 
 /**
  * Interface for formatters
- *
- * @author Jordi Boggiano <j.boggiano@seld.be>
  */
 interface FormatterInterface
 {

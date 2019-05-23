@@ -1,14 +1,11 @@
 <?php
 
-namespace jeffrey\Monolog;
+namespace jeffrey\Handler;
 
 /**
  * Base Handler class providing the Handler structure
  *
  * Classes extending it should (in most cases) only implement write($record)
- *
- * @author Jordi Boggiano <j.boggiano@seld.be>
- * @author Christophe Coevoet <stof@notk.org>
  */
 abstract class AbstractProcessingHandler extends AbstractHandler
 {

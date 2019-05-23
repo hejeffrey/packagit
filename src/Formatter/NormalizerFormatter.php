@@ -9,15 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace jeffrey\Monolog\Formatter;
+namespace jeffrey\Handler\Formatter;
 
 use Exception;
-use jeffrey\Monolog\FormatterInterface;
+use jeffrey\Handler\FormatterInterface;
 
 /**
  * Normalizes incoming records to remove objects/resources so it's easier to dump to various targets
- *
- * @author Jordi Boggiano <j.boggiano@seld.be>
  */
 class NormalizerFormatter implements FormatterInterface
 {

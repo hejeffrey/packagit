@@ -2,17 +2,14 @@
 
 namespace Monolog\Handler;
 
-use jeffrey\Monolog\Logger;
-use jeffrey\Monolog\StreamHandler;
+use jeffrey\Handler\Logger;
+use jeffrey\Handler\StreamHandler;
 
 /**
  * Stores logs to files that are rotated every day and a limited number of files are kept.
  *
  * This rotation is only intended to be used as a workaround. Using logrotate to
  * handle the rotation is strongly encouraged when you can use it.
- *
- * @author Christophe Coevoet <stof@notk.org>
- * @author Jordi Boggiano <j.boggiano@seld.be>
  */
 class RotatingFileHandler extends StreamHandler
 {
