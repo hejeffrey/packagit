@@ -2,6 +2,8 @@
   "name": "jeffrey/logger",
   "description": "custom logging!",
   "type": "library",
+  "keywords": ["logger"],
+  "homepage": "https://github.com/hejeffrey/packagit",
   "require": {
     "php": ">=7.0"
   },
